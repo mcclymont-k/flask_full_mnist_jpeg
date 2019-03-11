@@ -151,7 +151,6 @@ packaging==17.1
 palettable==3.1.1
 pandas==0.23.0
 # Editable install with no version control (pandas-summary==0.0.5)
--e /home/kieran/.local/lib/python3.6/site-packages
 pandocfilters==1.4.2
 parso==0.2.0
 partd==0.3.8
