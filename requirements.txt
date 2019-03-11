@@ -1,7 +1,7 @@
 numpy
 torchvision
 fastai
-uvicorn==0.3.32
+uvicorn
 python-multipart
 aiofiles
 aiohttp
