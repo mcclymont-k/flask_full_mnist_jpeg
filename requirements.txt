@@ -1,7 +1,6 @@
 numpy
 torchvision
 fastai
-uvicorn
 python-multipart
 aiofiles
 aiohttp
