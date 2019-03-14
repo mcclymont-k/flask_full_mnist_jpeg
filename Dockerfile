@@ -15,4 +15,4 @@ RUN python app/app.py
 
 EXPOSE 5042
 
-CMD ["python", "app/myapp.py", "serve"]
+CMD ["python", "app/app.py", "serve"]
