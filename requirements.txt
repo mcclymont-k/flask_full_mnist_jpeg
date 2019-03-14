@@ -4,4 +4,3 @@ Flask==1.0.2
 fastai==1.0.47.post1
 python-multipart
 numpy
-gunicorn
