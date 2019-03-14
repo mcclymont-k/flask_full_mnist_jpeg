@@ -15,4 +15,4 @@ RUN python app/app.py
 
 EXPOSE 5042
 
-CMD ["gunicorn", "-b", "0.0.0.0:5042", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:5042", "app.app:app"]
