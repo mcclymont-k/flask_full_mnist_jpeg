@@ -30,4 +30,5 @@ def predict():
     })
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5044)
+    if 'serve' in sys.argv:
+        app.run(host='0.0.0.0', port=5044)
