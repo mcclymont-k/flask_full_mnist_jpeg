@@ -13,6 +13,6 @@ COPY app app/
 
 RUN python app/app.py
 
-EXPOSE 5042
+EXPOSE 5043
 
 CMD ["python", "app/myapp.py", "serve"]
