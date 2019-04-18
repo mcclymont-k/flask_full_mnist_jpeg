@@ -1,4 +1,7 @@
-FROM python:3
+FROM python:3.6
+
+FROM ubuntu
+RUN apt update && apt install -y python3
 
 RUN apt-get update && apt-get install -y git python3-dev gcc \
     && rm -rf /var/lib/apt/lists/*
